@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Урок 1. Подключение и выполнение скриптов</title>
+
+</head>
+<body>
+<p><a href="index.html">Главная</a></p>
+<p>Javascrip может находится внутри тегов script внутри документа и подключаться из файла</p>
+<i>Javascript внутри страницы</i>
+<code lass="language-html" data-lang="html">
+<pre>
+    &lt;script type="text/javascript"&gt;
+    /**
+        Код javascript
+    */
+    &lt;/script&gt;
+
+
+</pre>
+</code>
+<i>Подключаем из файла. Внутри тегов ничего не указываем!!!</i>
+<code lass="language-html" data-lang="html">
+
+<pre>
+    &lt;script type="text/javascript" src="some-file.js"&gt;&lt;/script&gt;
+</pre>
+</code>
+<p>Скрипты лучше указывать над тегом &lt;/body&gt; потому, что скрипты будут вызываться после загрузки всего документа.</p>
+<p>Обовсех тегах, которые находятся ниже тегов script,  Javascript ничего не узнает. Однако, в различных Javascript фреймвоках и библиотеках, реализован функционал, позволяющий вызывать скрипты
+на более высоком уровне HTML документа.
+</p>
+
+</body>
+</html>

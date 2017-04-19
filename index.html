@@ -7,5 +7,173 @@
 <body>
 <p><a href="less-1.html">Урок 1. Подключение и выполнение скриптов</a></p>
 <p><a href="less-2.html">Основные элементы javascript</a></p>
+
+<form id="my-form">
+    <input type="text" id="name" value="Vasya"><br>
+    <input type="text" id="surce-name" value="Perov"><br>
+    <input type="text" id="age" value="25"><br>
+    <select id="gender">
+        <option value=""></option>
+        <option value="boy" selected>Boy</option>
+        <option value="girl">Girl</option>
+    </select><br>
+    <hr>
+    <button type="button" id="btn-send">Send</button>
+</form>
+
+<ul id="my-div">
+   <li class="m-li">1 <b>One</b></li>
+   <li class="m-li">2</li>
+   <li class="m-li">3  <!--Some Text--> </li>
+   <!--<li class="m-li">4</li>-->
+    <!--перебрать, найти последний и вставить в него текст-->
+</ul>
+
+<script type="text/javascript">
+    var my_var = 1;
+
+   /* for (var i = 10; i >= 0; i--) {
+        //console.log(my_var + " word : " + i);
+    }*/
+
+    var i = 0;
+
+ /*   while (true) {
+        i++;
+        console.log(my_var + " word : " + i);
+        if (i >= 10) {
+            console.log("Done");
+            break;
+        } else if(i == 5) {
+            console.log("Done: 5");
+        } else {
+            console.log("some one ");
+        }
+
+        switch(i) {
+            case(10) : {
+                // .....
+                break;
+            }
+            case(5): {
+                // ....
+                break;
+            }
+            default: {
+                //.....
+            }
+        }
+
+    } */
+
+</script>
+
+<script type="text/javascript">
+
+/*    var myArr = [];
+
+    function myFunct(arg1, arg2) {
+        return arg1 + arg2;
+    }
+
+    for (var i = 0; i <= 3; i++) {
+        myArr.push("Hello: "+i);
+    }
+
+    for (var f = 0; f < myArr.length; f++) {
+        if (f == 1) {
+            myArr[f] = "Words is cool: " + f;
+        }
+        console.log(myArr[f]);
+    }*/
+
+   //var summ = myFunct(3,3);
+    //console.log( myArr, myArr.length );
+
+</script>
+
+<script type="text/javascript">
+
+    /*function myClass() {
+        this.voice = "";  // public param
+        var myVar ; // private param
+
+        this.myFunction = function() {
+            alert(this.voice);
+            alert(myVar);
+        }
+    }
+    */
+
+    var myClass = {
+        voice: "Hello",
+        myFunction: function() {
+
+        }
+    };
+
+    /*myClass.myFunction.portotype = function() {
+
+    }*/
+
+ /*   var myObj1 = new myClass();
+    myObj1.myFunction();
+
+    var myObj2 = new myClass();
+    myObj2.voice = "Hello 2";
+*/
+
+
+    var button = document.getElementById("btn-send");
+    var li = document.getElementsByClassName('m-li');
+    console.log(li[0].innerHTML);
+    console.log(li[0].innerText);
+    var btnClick = function() {
+        var form = document.getElementById("my-form");
+        var ret = {};
+        console.log(ret);
+        for(var i = 0; i < form.elements.length; i++) {
+            var el = form.elements[i];
+
+            if (el.type != "button") {
+                if (form.elements[i].id == "name") {
+                    form.elements[i].value = "Petya";
+                }
+
+                var id = el.id; // form.elements[i].id
+                var val = null;
+
+                if (el.type == 'select-one') {
+                    val = el.options[el.selectedIndex].value;
+                    //form.elements[i].selectedIndex = 1;
+                    /*for(var f = 0; f < form.elements[i].options.length; f++) {
+                     console.log(form.elements[i].selectedIndex);
+                     }*/
+                } else {
+                    val = el.value;
+                }
+
+
+                if (val == "") {
+                    alert("Поле "+ id +" не должно быть пустым")  ;
+                }
+
+                if (!isNaN(val)) {
+                    alert("Поле "+ id +" не должно быть числом")  ;
+                }
+                ret[id] = val;
+            }
+
+            //console.log(form.elements[i].value);
+        }
+        console.log(ret);
+    }
+
+
+
+    if (button !== undefined) {
+        button.onclick = btnClick;
+    }
+</script>
 </body>
 </html>

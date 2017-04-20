@@ -28,7 +28,17 @@
    <!--<li class="m-li">4</li>-->
     <!--перебрать, найти последний и вставить в него текст-->
 </ul>
+<script>
+    var list = document.getElementsByClassName('m-li');
+    console.log(list.length);
+    for(var i = 0; i < list.length; i++){
+        if (i == list.length - 1) {
+            console.log("#"+i+":"+list[i]);
+            list[i].innerHTML=  list[i].innerHTML + 'big text';
+        }
 
+    }
+</script>
 <!--<script type="text/javascript">-->
     <!--var my_var = 1;-->
 
@@ -105,12 +115,12 @@
     }
     */
 
-    var myClass = {
-        voice: "Hello",
-        myFunction: function() {
-
-        }
-    };
+//    var myClass = {
+//        voice: "Hello",
+//        myFunction: function() {
+//
+//        }
+//    };
 
     /*myClass.myFunction.portotype = function() {
 
@@ -123,57 +133,57 @@
     myObj2.voice = "Hello 2";
 */
 
-
-    var button = document.getElementById("btn-send");
-    var li = document.getElementsByClassName('m-li');
-    console.log(li[0].innerHTML);
-    console.log(li[0].innerText);
-    var btnClick = function() {
-        var form = document.getElementById("my-form");
-        var ret = {};
-        console.log(ret);
-        for(var i = 0; i < form.elements.length; i++) {
-            var el = form.elements[i];
-
-            if (el.type != "button") {
-                if (form.elements[i].id == "name") {
-                    form.elements[i].value = "Petya";
-                }
-
-                var id = el.id; // form.elements[i].id
-                var val = null;
-
-                if (el.type == 'select-one') {
-                    val = el.options[el.selectedIndex].value;
-                    //form.elements[i].selectedIndex = 1;
-                    /*for(var f = 0; f < form.elements[i].options.length; f++) {
-                     console.log(form.elements[i].selectedIndex);
-                     }*/
-                } else {
-                    val = el.value;
-                }
-
-
-                if (val == "") {
-                    alert("Поле "+ id +" не должно быть пустым")  ;
-                }
-
-                if (!isNaN(val)) {
-                    alert("Поле "+ id +" не должно быть числом")  ;
-                }
-                ret[id] = val;
-            }
-
-            //console.log(form.elements[i].value);
-        }
-        console.log(ret);
-    }
-
-
-
-    if (button !== undefined) {
-        button.onclick = btnClick;
-    }
+//
+//    var button = document.getElementById("btn-send");
+//    var li = document.getElementsByClassName('m-li');
+//    console.log(li[0].innerHTML);
+//    console.log(li[0].innerText);
+//    var btnClick = function() {
+//        var form = document.getElementById("my-form");
+//        var ret = {};
+//        console.log(ret);
+//        for(var i = 0; i < form.elements.length; i++) {
+//            var el = form.elements[i];
+//
+//            if (el.type != "button") {
+//                if (form.elements[i].id == "name") {
+//                    form.elements[i].value = "Petya";
+//                }
+//
+//                var id = el.id; // form.elements[i].id
+//                var val = null;
+//
+//                if (el.type == 'select-one') {
+//                    val = el.options[el.selectedIndex].value;
+//                    //form.elements[i].selectedIndex = 1;
+//                    /*for(var f = 0; f < form.elements[i].options.length; f++) {
+//                     console.log(form.elements[i].selectedIndex);
+//                     }*/
+//                } else {
+//                    val = el.value;
+//                }
+//
+//
+//                if (val == "") {
+//                    alert("Поле "+ id +" не должно быть пустым")  ;
+//                }
+//
+//                if (!isNaN(val)) {
+//                    alert("Поле "+ id +" не должно быть числом")  ;
+//                }
+//                ret[id] = val;
+//            }
+//
+//            //console.log(form.elements[i].value);
+//        }
+//        console.log(ret);
+//    }
+//
+//
+//
+//    if (button !== undefined) {
+//        button.onclick = btnClick;
+//    }
 </script>
 </body>
 </html>

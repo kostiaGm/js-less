@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33be416c-dcf4-4c65-b6d8-b139f9ac9a13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="js-less.iws" />
@@ -28,10 +26,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-951">
-              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="552">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
-                <marker date="1492591824680" expanded="true" signature="259:678" ph="..." />
+                <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
               </folding>
             </state>
           </provider>
@@ -245,15 +243,15 @@
       <workItem from="1492496533586" duration="44000" />
       <workItem from="1492496605706" duration="3244000" />
       <workItem from="1492499964435" duration="23000" />
-      <workItem from="1492584189706" duration="5729000" />
+      <workItem from="1492584189706" duration="6246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12246000" />
+    <option name="totallyTimeSpent" value="12763000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19559902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -304,7 +302,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1492591824680" expanded="true" signature="259:678" ph="..." />
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
           </folding>
         </state>
       </provider>
@@ -346,7 +344,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1492591824680" expanded="true" signature="259:678" ph="..." />
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
           </folding>
         </state>
       </provider>
@@ -388,7 +386,7 @@
         <state relative-caret-position="161">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="74" />
           <folding>
-            <marker date="1492591824680" expanded="true" signature="259:678" ph="..." />
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
           </folding>
         </state>
       </provider>
@@ -430,7 +428,7 @@
         <state relative-caret-position="161">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="74" />
           <folding>
-            <marker date="1492591824680" expanded="true" signature="259:678" ph="..." />
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
           </folding>
         </state>
       </provider>
@@ -472,7 +470,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="74" />
           <folding>
-            <marker date="1492591824680" expanded="true" signature="259:678" ph="..." />
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
           </folding>
         </state>
       </provider>
@@ -551,10 +549,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-951">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="552">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <marker date="1492591824680" expanded="true" signature="259:678" ph="..." />
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
           </folding>
         </state>
       </provider>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33be416c-dcf4-4c65-b6d8-b139f9ac9a13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homework.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="js-less.iws" />
@@ -36,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homework.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homework.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+            <state relative-caret-position="391">
+              <caret line="17" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -100,9 +110,9 @@
         <option value="$PROJECT_DIR$/Index.html" />
         <option value="$PROJECT_DIR$/less-1.html" />
         <option value="$PROJECT_DIR$/less-2.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/homework.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -260,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14737000" />
+    <option name="totallyTimeSpent" value="14753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -571,8 +581,276 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        <state relative-caret-position="414">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#367#371#0" expanded="true" />
+            <element signature="e#400#404#0" expanded="true" />
+            <element signature="e#447#451#0" expanded="true" />
+            <element signature="e#458#462#0" expanded="true" />
+            <element signature="e#600#604#0" expanded="true" />
+            <element signature="e#652#656#0" expanded="true" />
+            <element signature="e#656#660#0" expanded="true" />
+            <element signature="e#667#671#0" expanded="true" />
+            <element signature="e#724#728#0" expanded="true" />
+            <element signature="e#733#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="71" lean-forward="false" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+          <folding>
+            <element signature="e#868#872#0" expanded="true" />
+            <element signature="e#901#905#0" expanded="true" />
+            <element signature="e#1245#1249#0" expanded="true" />
+            <element signature="e#1256#1260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#367#371#0" expanded="true" />
+            <element signature="e#400#404#0" expanded="true" />
+            <element signature="e#447#451#0" expanded="true" />
+            <element signature="e#458#462#0" expanded="true" />
+            <element signature="e#600#604#0" expanded="true" />
+            <element signature="e#652#656#0" expanded="true" />
+            <element signature="e#656#660#0" expanded="true" />
+            <element signature="e#667#671#0" expanded="true" />
+            <element signature="e#724#728#0" expanded="true" />
+            <element signature="e#733#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="71" lean-forward="false" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+          <folding>
+            <element signature="e#868#872#0" expanded="true" />
+            <element signature="e#901#905#0" expanded="true" />
+            <element signature="e#1245#1249#0" expanded="true" />
+            <element signature="e#1256#1260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#367#371#0" expanded="true" />
+            <element signature="e#400#404#0" expanded="true" />
+            <element signature="e#447#451#0" expanded="true" />
+            <element signature="e#458#462#0" expanded="true" />
+            <element signature="e#600#604#0" expanded="true" />
+            <element signature="e#652#656#0" expanded="true" />
+            <element signature="e#656#660#0" expanded="true" />
+            <element signature="e#667#671#0" expanded="true" />
+            <element signature="e#724#728#0" expanded="true" />
+            <element signature="e#733#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="71" lean-forward="false" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+          <folding>
+            <element signature="e#868#872#0" expanded="true" />
+            <element signature="e#901#905#0" expanded="true" />
+            <element signature="e#1245#1249#0" expanded="true" />
+            <element signature="e#1256#1260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#367#371#0" expanded="true" />
+            <element signature="e#400#404#0" expanded="true" />
+            <element signature="e#447#451#0" expanded="true" />
+            <element signature="e#458#462#0" expanded="true" />
+            <element signature="e#600#604#0" expanded="true" />
+            <element signature="e#652#656#0" expanded="true" />
+            <element signature="e#656#660#0" expanded="true" />
+            <element signature="e#667#671#0" expanded="true" />
+            <element signature="e#724#728#0" expanded="true" />
+            <element signature="e#733#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="71" lean-forward="false" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+          <folding>
+            <element signature="e#868#872#0" expanded="true" />
+            <element signature="e#901#905#0" expanded="true" />
+            <element signature="e#1245#1249#0" expanded="true" />
+            <element signature="e#1256#1260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#367#371#0" expanded="true" />
+            <element signature="e#400#404#0" expanded="true" />
+            <element signature="e#447#451#0" expanded="true" />
+            <element signature="e#458#462#0" expanded="true" />
+            <element signature="e#600#604#0" expanded="true" />
+            <element signature="e#652#656#0" expanded="true" />
+            <element signature="e#656#660#0" expanded="true" />
+            <element signature="e#667#671#0" expanded="true" />
+            <element signature="e#724#728#0" expanded="true" />
+            <element signature="e#733#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#868#872#0" expanded="true" />
+            <element signature="e#901#905#0" expanded="true" />
+            <element signature="e#1245#1249#0" expanded="true" />
+            <element signature="e#1256#1260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#367#371#0" expanded="true" />
+            <element signature="e#400#404#0" expanded="true" />
+            <element signature="e#447#451#0" expanded="true" />
+            <element signature="e#458#462#0" expanded="true" />
+            <element signature="e#600#604#0" expanded="true" />
+            <element signature="e#652#656#0" expanded="true" />
+            <element signature="e#656#660#0" expanded="true" />
+            <element signature="e#667#671#0" expanded="true" />
+            <element signature="e#724#728#0" expanded="true" />
+            <element signature="e#733#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="71" lean-forward="false" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+          <folding>
+            <element signature="e#868#872#0" expanded="true" />
+            <element signature="e#901#905#0" expanded="true" />
+            <element signature="e#1245#1249#0" expanded="true" />
+            <element signature="e#1256#1260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <marker date="1492671122177" expanded="true" signature="259:678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>

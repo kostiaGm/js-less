@@ -354,7 +354,16 @@
 <script>
     var year = 1652;
 
-    if (( year / 4 ) && ( year !/ 0 ))
+    if ( (year % 4) == 0 && (year % 100) != 0 ) || (year % 400) == 0)) {
+
+    }
+//    if (( year / 4 ) && ( year !% 100 ))
+
+    var d = prompt("Test");
+// 12 % d == 0
+    console.log( 12 % d );
+
+
 </script>
 </body>
 </html>

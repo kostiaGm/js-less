@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery</title>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<form id="my-form">
+    <input type="text" id="name" value="Vasya"><br>
+    <input type="text" id="surce-name" value="Perov"><br>
+    <input type="text" id="age" value="25"><br>
+    <select id="gender">
+        <option value=""></option>
+        <option value="boy" selected>Boy</option>
+        <option value="girl">Girl</option>
+    </select><br>
+    <hr>
+    <button type="button" id="btn-send">Send</button>
+</form>
+
+<script type="text/javascript">
+    $(function () {
+        console.log( $('#gender').val('girl') );
+        var myDiv = $("#my-div");
+
+        $("#my-form input, #my-form select").each(function(index) {
+            console.log($(this).val());
+        });
+
+      /*  myDiv.on('click', function() {
+            console.log(
+                //.html('qwqwq'),
+                myDiv.html(),
+                myDiv.attr('id'),
+                myDiv.attr('class', 'other-class')
+            );
+        });*/
+
+        //document.getElementById('my-div').innerHTML;
+    });
+
+    var divClick = function(obj) {
+        var myDiv = $(obj);
+        //myDiv.parents('.div-text');
+        //myDiv.parent('.div-text');
+        myDiv.closest('.top') // находим первый родительский div с классом top
+            .find('.div-text')  // находим вложенный div div-text
+            .text(myDiv.attr('id') // передаем найденному div-text значение
+
+            );
+
+        //$('.div-text').text(myDiv.attr('id'));
+        console.log(myDiv.attr('id'));
+    }
+
+
+    var myClass = function() {
+        this.f1 = function() {
+            console.log("f1");
+            console.log('this:', this);
+            return this;
+        }
+
+        this.f2 = function() {
+            console.log("f2");
+            return this;
+        }
+    }
+
+    console.log();
+    var myClass1 = new myClass();
+    myClass1
+        .f2()
+        .f1();
+    //myClass1.f2();
+
+</script>
+<div id="top1" class="top">
+    <div class="div-text"></div>
+    <div id="my-div" class="test-div" style="border: 1px solid" onclick="divClick(this)">Hello</div>
+</div>
+<div id="top2"  class="top">
+    <div class="div-text"></div>
+    <div id="my-div1" class="test-div" style="border: 1px solid" onclick="divClick(this)">Hello</div>
+</div>
+</body>
+</html>
